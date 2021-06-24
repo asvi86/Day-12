@@ -1,0 +1,9 @@
+
+# importing the random module
+import random
+print("The random choice:")
+print(random.randint(0,100))
+#To import sys to find python path
+import sys
+for p in sys.path:
+    print(p)
